@@ -1,0 +1,70 @@
+(- problem here - once the bottom of our overflow container is reached, to load new photos
+-problem - i wanted to have useRef and a getBoundingClientRect property on the overflow element (to manage the scroll event), but i was getting nothing but 'null'. Its certain about the 'map method', but i cant see a solution now. for the moment, i will keep the whole page as a scroll event. 
+-problem - big problem when i had the scroll event in the globalContext - even though pages were different, the scroll functionality was still invoked
+)
+
+
+DONE- when diary is saved, to have also the date and the hour
+DONE - when edites are made, write also the date and the hour
+Dont know how - focus on writing when notepad is opened
+
+DONE- to add a delete option for each diary, and also once the delete button appears, to display a verification: 'are you sure, bro?'
+also: maybe to have some interesting delete functionality where you have to check each element that you want to delete.
+DONE- when description is longer than the container, to add the option 'read more'
+DONE- scroll back to the edited item
+
+
+DONE- welcome page
+DONE -deleting alert
+
+DONE-if no image in note, to write 'add image'
+DONE- if after edit item remains the same, not to add any 'edit date info'
+
+DONE- idea!: once the element is editing, to cover it with a shadow background and to write 'editing... ';
+DONE- spontaneous idea!: when notepad is opened, to have a music link to youtube 
+DONE- when an item is being edited, to not be able to add to edit another one
+
+DONE-textarea - to disable all decorations when clicked(no border...)
+
+DONE-when item is being edited, to not be able to delete it - to show alert: "note is being edited"
+
+DONE-authentification page: - to have a background image and in the center the element with login and free inscription
+  - wihout auth, to not be able to access the "/page" page
+
+DONE -logout - if a note is editing, to display on the welcome page(page where the Link goes) an 'alert' with 'all changes were saved' - and to save changes
+
+DONE- changes alert appears only when changes are made
+
+DONE - once the element is edited, will be awesome to scroll back to its position in the list
+DONE - to change dinamically the buttons 
+
+DONE-youtube - on hover, to display below a div and to write something - calming music for writing
+     - very awesome idea: to display some playlist idea in form of dots(or other forms) and once hovered, to display the name of the playlist and a youtube icon which, once clicked, will navigate to the youtube playlist
+     - when the dot is clicked, to navigate to that youtube page
+
+DONE -page - once description is added, to have a bounce animation to the save button
+
+18.10:
+
+DONE - the problem with the scroll was solved by addind id to each element and finding it by using getElementById
+DONE -created a separate componen for DeleteAlert, because the question about the note contained the date for the first item added in the list.
+SOLVED -encountered difficulties while having an 'onmouseover' with an icon - when it comes to the path of the svg, the className differs so i couldnt display correctly the sublinks
+
+DONE -local storage for diary list
+
+
+SOLVED problem: photo doesnt want to change(was just a bug)
+
+SOLVED - no  photo on the written note: when photo is chosed, to scroll to the element - there is how the above bug appears! now if i try to change a photo, i cannot do it - another note's photo is changed
+
+DONE - to have also a break-word in the diary list - better to have an overflow option and to have the button above
+
+Home page:
+SOLVED !problem - when input is clicked, it searches...
+DONE-to have the emotional states on the whole page
+
+DONE- scroll to photos container when an ES is clicked
+WORKES to check: if i search multiple times with 'other' input, does it change the photos? 
+DONE-feedback form at the end of all the notes - feedback button - when clicked, to have an element that appears
+
+SOLVED - problem: when user comes back from feedback page, to refresh the feedback input form

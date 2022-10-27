@@ -1,0 +1,92 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #dadada86;
+    /* color: var(--clr-grey-9); */
+    /* line-height: 1.5; */
+    font-size: 0.875rem;
+}
+html {
+    scroll-behavior: smooth;
+}
+.haha {
+
+    color: #dadada99;
+    color: #6c6c6c;
+    color: #393939;
+
+
+
+    /* aster flower */
+
+    /* all section */
+    color: #d5c5fe42; 
+    /* navbar */
+    color: #abc2a484;
+    color: #d4e2d05f;
+    /* container */
+    color: #f4e3c963;
+    color: #fff7ecc7;
+    /* details */
+    color: #f8e3ff;
+    /* details :hover */
+    color: #d7a1ec5a;
+    color: #e2b8f35a;
+
+    /* green */
+    color: #ddf3dd;
+    color: #d4e2d01c;
+
+    /* violet */
+    color: #ce52fe;
+    color: #dfa0f8;
+    
+    /* pale violet - no opacity */
+    color: #f7ecfb;
+    color: #f6f0f8;
+    /* pale violet */
+    color: #cd52fe31;
+    /* pale violet */
+    color: #fdf7ffc0;
+
+
+    
+    
+    /* pale white */
+    color: #fefdff4f;
+    /* pale white hover */
+    color: #f7f2fc;
+
+    /* black color - opacity */
+    color: #000000bd;
+/* black color hover */
+    color:#00000082;
+
+    /* pale white */
+    color: #e1dfdf;
+
+    /* alert pale red */
+    color: #fc9595;
+
+    color: #d3d3d3;
+
+    /* pale orange */
+    color: #f3c46ebd;
+    /* very pale orange */
+    color: #f3c46e21;
+
+    color: #b3dab3;
+
+    /* pale gray */
+color: #eeeeee;
+
+    color: #cd52fe90;
+    background: #dfa0f8af;
+}
